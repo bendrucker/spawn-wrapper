@@ -1,0 +1,36 @@
+{
+  "name": "spawn-wrapper",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Spawn a child_process to run while another process is running",
+  "license": "MIT",
+  "repository": "bendrucker/spawn-wrapper",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "child_process",
+    "spawn",
+    "wrapper",
+    "run",
+    "command",
+    "cliu"
+  ],
+  "devDependencies": {
+    "concat-stream": "~1.5.2",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "end-of-stream": "~1.1.0"
+  }
+}
