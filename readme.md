@@ -14,30 +14,36 @@ $ npm install --save spawn-wrapper
 
 ```js
 var spawnWrapper = require('spawn-wrapper')
+var child = require('child_process')
 
-spawnWrapper('input')
-//=> output
+var download = child.spawn('curl', ['http://my/file'])
+
+spawnWrapper(download, [
+  'say',
+  ['-v', 'karen', 'downloading']
+])
+// #=> say "downloading" until curl finishes
 ```
 
 ## API
 
-#### `spawnWrapper(input, [options])` -> `output`
+#### `spawnWrapper(spawned, args)` -> `object`
 
-##### input
+Returns `{stdout, stderr}` streams from the spawned wrapper process.
+
+##### spawned
 
 *Required*  
-Type: `string`
+Type: `object`
 
-Lorem ipsum.
+A spawned child from `child_process.spawn`.
 
-##### options
+##### args
 
-###### foo
+*Required*  
+Type: `array`
 
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+Arguments to pass to `child_process.spawn` to create the wrapper process.
 
 
 ## License
