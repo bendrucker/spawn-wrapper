@@ -1,7 +1,7 @@
 {
   "name": "spawn-wrapper",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Spawn a child_process to run while another process is running",
   "license": "MIT",
   "repository": "bendrucker/spawn-wrapper",
