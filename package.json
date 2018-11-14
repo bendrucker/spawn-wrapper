@@ -22,8 +22,8 @@
     "cliu"
   ],
   "devDependencies": {
-    "concat-stream": "~1.5.2",
-    "standard": "^7.0.0",
+    "concat-stream": "~1.6.2",
+    "standard": "^12.0.1",
     "tape": "^4.0.0"
   },
   "files": [
@@ -31,6 +31,6 @@
     "test.js"
   ],
   "dependencies": {
-    "end-of-stream": "~1.1.0"
+    "end-of-stream": "~1.4.1"
   }
 }

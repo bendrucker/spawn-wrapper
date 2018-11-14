@@ -1,4 +1,4 @@
-# spawn-wrapper [![Build Status](https://travis-ci.org/bendrucker/spawn-wrapper.svg?branch=master)](https://travis-ci.org/bendrucker/spawn-wrapper)
+# spawn-wrapper [![Build Status](https://travis-ci.org/bendrucker/spawn-wrapper.svg?branch=master)](https://travis-ci.org/bendrucker/spawn-wrapper) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/spawn-wrapper.svg)](https://greenkeeper.io/)
 
 > Spawn a child_process to run while another process is running
 
